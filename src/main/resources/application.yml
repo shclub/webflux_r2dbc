@@ -1,8 +1,8 @@
 spring:
   r2dbc:
     url: r2dbc:mariadb://localhost:3306/webflux_db
-    username: webflux
-    password: webflux
+    username: root
+    password: maria
 logging:
   level:
     org.springframework.r2dbc.core: debug
